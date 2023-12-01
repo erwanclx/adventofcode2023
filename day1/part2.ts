@@ -32,9 +32,7 @@ function getDigits(input: Array<string>){
     let all_digits: number[] = []
     input.map((value) => {
         let digits: number[] = []
-        console.log('Value', value)
         value = stringToNumber(value)
-        console.log('Value after', value)
 
         value.split('').map((digit) => {
             let parsedDigit = parseInt(digit);
@@ -51,9 +49,6 @@ function getDigits(input: Array<string>){
             first: digits[0].toString(), 
             last: digits[digits.length - 1].toString() 
         }
-
-        console.log('First', first)
-        console.log('Last', last)
 
         all_digits.push(parseInt(first + last))
 
