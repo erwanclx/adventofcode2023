@@ -2,7 +2,7 @@
 [See the Advent of Code site](https://adventofcode.com/)
 ## Presentation 
 Advent of Code is an annual set of Christmas-themed computer programming challenges that follow an Advent calendar.
-## My progress (Waiting for start..)
+## My progress
 |	Mon	|	Tue	|	Wed	|	Thu	|	Fri	|	Sat	|	Sun	|
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |		|		|		|		|	1🟢 |	2🟢	|	3🟦	|
