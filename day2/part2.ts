@@ -65,7 +65,8 @@ getInput().map((value) => {
         array_of_cubes.push(cubes);
     })
 
-    const minimumCube: {} = getMin(array_of_cubes);
+    const minimumCube: { [key: string]: number } = getMin(array_of_cubes);
+    array_of_games.push(minimumCube['red'] * minimumCube['green'] * minimumCube['blue'])
 })
 
-// console.log(array_of_games.reduce((acc, value) => acc + value, 0))
+console.log(array_of_games.reduce((acc, value) => acc + value, 0))

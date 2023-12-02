@@ -3,7 +3,7 @@
 Result was :
 
 ```
-
+2331
 ```
 
 ## Part 2
@@ -11,5 +11,5 @@ Result was :
 Result was :
 
 ```
-
+71585
 ```
